@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { db } from "../../models/config"; // Importar la conexión a la base de datos
 import { contactForm } from "../../models/schema"; // Importar el esquema
 
-// Manejador POST para recibir datos del formulario
+// Manejador POST para recibir datos del formulario.
 export async function POST(request) {
   try {
     // Parsear el cuerpo de la solicitud (JSON)
